@@ -1,0 +1,114 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 42958CE10F524F4100DE715C /* euler003 */;
+		activeTarget = 8DD76F620486A84900D96B5E /* euler003 */;
+		codeSenseManager = 42958CE70F524F5F00DE715C /* Code sense */;
+		executables = (
+			42958CE10F524F4100DE715C /* euler003 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 257136546;
+			PBXWorkspaceStateSaveDate = 257136546;
+		};
+		perUserProjectItems = {
+			42388FD10F5397E900DF0B66 /* PBXTextBookmark */ = 42388FD10F5397E900DF0B66 /* PBXTextBookmark */;
+			42958CFF0F52548A00DE715C /* PBXTextBookmark */ = 42958CFF0F52548A00DE715C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 42958CE60F524F5F00DE715C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 501}}";
+			sepNavSelRange = "{423, 164}";
+			sepNavVisRange = "{0, 588}";
+			sepNavWindowFrame = "{{15, 70}, {750, 803}}";
+		};
+	};
+	42388FD10F5397E900DF0B66 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 27";
+		rLen = 164;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 0;
+	};
+	42958CE10F524F4100DE715C /* euler003 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = euler003;
+		sourceDirectories = (
+		);
+	};
+	42958CE60F524F5F00DE715C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	42958CE70F524F5F00DE715C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	42958CFF0F52548A00DE715C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 8";
+		rLen = 0;
+		rLoc = 122;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 0;
+	};
+	8DD76F620486A84900D96B5E /* euler003 */ = {
+		activeExec = 0;
+		executables = (
+			42958CE10F524F4100DE715C /* euler003 */,
+		);
+	};
+}

@@ -1,0 +1,1 @@
+In which I solve fun programming puzzles (with a mathematical bent) from [Project Euler](http://projecteuler.net/).

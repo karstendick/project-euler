@@ -38,19 +38,31 @@ def is_square(n):
 
 M = 100
 
+@memoize
+def countPath(ab, c):
+    cand = ab*ab + c*c
+    if is_square(cand):
+        return 1
+    else:
+        return 0
+
 @timing
 def countPaths(M):
     total = 0
     for a in xrange(1, M+1):
         for b in xrange(a, M+1):
             for c in xrange(b, M+1):
-                cand = (a + b)*(a + b) + c*c
+                total += countPath(a+b, c)
+                
+                #cand = (a + b)*(a + b) + c*c
+                
                 #cand1 = (a + b)*(a + b) + c*c
                 #cand2 = (b + c)*(b + c) + a*a
                 #cand3 = (c + a)*(c + a) + b*b
                 #cand = min([cand1, cand2, cand3])
-                if is_square(cand):
-                    total += 1
+
+                #if is_square(cand):
+                #    total += 1
     return total
 
 print(99, countPaths(99))

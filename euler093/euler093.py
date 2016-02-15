@@ -125,7 +125,7 @@ for a in xrange(1,7):
 
 print "All done!"
 print longest
-print [a,b,c,d]
+print ans
 
 
 
